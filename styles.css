@@ -1,0 +1,108 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+#container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+#library {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.book {
+	width: 200px;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.book h3 {
+	margin-top: 0;
+	font-size: 18px;
+	color: #333;
+}
+
+.book p {
+	margin: 5px 0;
+	font-size: 14px;
+	color: #666;
+}
+
+.book button {
+	padding: 5px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.book button.remove {
+	background-color: #dc3545;
+	color: #dc3545;
+}
+
+.book button.read {
+	background-color: #28a745;
+	color: #28a745;
+}
+
+#newBookBtn {
+	margin-top: 2%;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+#newBookForm {
+	margin-top: 20px;
+}
+
+#newBookForm label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+#newBookForm input[type="text"],
+#newBookForm input[type="number"],
+#newBookForm input[type="checkbox"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#newBookForm button {
+	width: 100%;
+	padding: 10px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#newBookForm button:hover {
+	background-color: #45a049;
+}
